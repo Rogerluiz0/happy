@@ -19,6 +19,7 @@
 - [x] [Nodemon](https://nodemon.io/)
 - [x] [Dotenv](https://www.npmjs.com/package/dotenv)
 - [x] [Handlebars](https://handlebarsjs.com/)
+- [x] [SQLite](https://www.sqlite.org/index.html)
 
 ## :computer: Projeto
 
@@ -58,8 +59,8 @@ projeto
 
 ## :arrow_down: Instalação
 
-- `git clone [repositório do projeto]`;
-- `cd [diretório do projeto]`;
+- `git clone https://github.com/Rogerluiz0/happy.git`;
+- `cd happy`;
 - `npm install`;
 - `npm run dev`.
 
