@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Ícone do projeto" title="" src=".github/" width="" />
+  <img alt="Ícone do projeto" title="" src=".github/logo.svg" width="70px" />
 </h1>
 
 <p align="center">
@@ -29,25 +29,21 @@
 - [x] [Express.js](https://expressjs.com/)
 - [x] [Nodemon](https://nodemon.io/)
 - [x] [Dotenv](https://www.npmjs.com/package/dotenv)
-- [x] [Nunjucks](https://mozilla.github.io/nunjucks/)
+- [x] [Handlebars](https://handlebarsjs.com/)
 
 ## :computer: Projeto
 
-[Descrição do projeto]
-
-## :checkered_flag: Updates
-
-[Relação dos updates]
+Projeto desenvolvido na #NLW3
 
 ## :bookmark: Layout
 
-[Link para o figma ou para a home page da aplicação.]
+Você pode conferir o layout da aplicação [aqui]()
 
 ## :bookmark_tabs: Ideias de implementação
 
 - [ ] Refatoração
-- [ ] ...
-- [ ] ...
+- [ ] Correção de bugs
+- [ ] Validação de formulário personalizada
 
 ## :open_file_folder: Estrutura de diretórios
 
@@ -56,19 +52,13 @@ projeto
   |-- .github 
   |-- public
     |-- asests
-    |-- pages
     |-- scripts
     |-- styles
-    |-- index.html
   |-- src
     |-- config
-      |-- index.js
-    |-- controllers
-      |-- index.js
     |-- database
-    |-- routes
-      |-- routes.js
-    |-- app.js
+    |-- views
+    |-- pages.js
     |-- server.js
   |-- .env
   |-- .gitignore
