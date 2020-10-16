@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/assets/logo-icon.png">
+  <meta name="description" content="">
+  <meta name="copyright" content="">
+  <meta name="keywords" content="">
+  <meta name="robot" content="index">
+  <meta name="generator" content="">
+  <meta name="author" content="">
+  <title>Happy | Localize um orfanato</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="/styles/main.css">
+  <link rel="stylesheet" type="text/css" href="/styles/animations.css">
+  <link rel="stylesheet" type="text/css" href="/styles/page-orphanages.css">
+
+</head>
+<body>
+
+  <div id="page-orphanages">
+    <aside class="animate-right">
+      <header>
+        <img src="/assets/map-marker.svg" alt="Happy">
+        <h2>Escolha um orfanato no mapa</h2>
+        <p>Muitas crianças estão esperando sua visita :)</p>
+      </header>
+
+      <footer>
+        <strong>Minas Gerais</strong>
+        <p>Belo Horizonte</p>
+      </footer>
+    </aside>
+
+    <div id="mapid" class="animate-appear"></div>
+
+    <div class="orphanages">
+      {{#each orphanages}}
+
+        <span hidden
+        data-id="{{this.id}}"
+        data-name="{{this.name}}"
+        data-lat="{{this.lat}}"
+        data-lng="{{this.lng}}"
+        ></span>
+
+      {{/each}}
+    </div>
+
+    <a href="/create-orphanage" class="create-orphanages" title="Cadastre um orfanato">
+      <img src="/assets/plus.svg" alt="Criar orfanato">
+    </a>
+  </div>
+
+  <script src="/scripts/page-orphanages.js" type="text/javascript"></script>
+
+</body>
+</html>
