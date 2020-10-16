@@ -2,16 +2,9 @@
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=5568f9&labelColor=111116">
 </p>
 
-<h1 align="center">:camera_flash: Screenshots</h1>
-
 <div align="center">
   <h2 align="center">Desktop</h2>
-  <img src=".github/" alt="Exemplo da interface no desktop" style="width: 100%;">
-</div>
-
-<div align="center">
-  <h2 align="center">Mobile</h2>
-  <img src=".github/" alt="Exemplo da interface no mobile" height="">
+  <img src=".github/deks.svg" alt="Exemplo da interface no desktop" style="width: 100%;">
 </div>
 
 ## :gear: Requisítos
@@ -33,7 +26,7 @@ Projeto desenvolvido na #NLW3
 
 ## :bookmark: Layout
 
-Você pode conferir o layout da aplicação [aqui]()
+Você pode conferir o layout da aplicação [aqui](https://roger-happy.herokuapp.com/)
 
 ## :bookmark_tabs: Ideias de implementação
 
