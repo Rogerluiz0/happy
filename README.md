@@ -1,7 +1,3 @@
-<h1 align="center">
-  <img alt="Ícone do projeto" title="" src=".github/logo.svg" width="100px" height="100px" />
-</h1>
-
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=5568f9&labelColor=111116">
 </p>
