@@ -25,10 +25,6 @@
 
 Projeto desenvolvido na #NLW3
 
-## :bookmark: Layout
-
-Você pode conferir o layout da aplicação [aqui](https://roger-happy.herokuapp.com/)
-
 ## :bookmark_tabs: Ideias de implementação
 
 - [ ] Refatoração
